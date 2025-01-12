@@ -19,7 +19,7 @@ public class intaking extends Command {
   
   @Override
   public void execute() {
-
+    m_intake_motor.run(m_intake_speed);
   }
 
   @Override

@@ -19,10 +19,9 @@ public class Intake extends SubsystemBase {
         motorConfig.idleMode(IdleMode.kBrake);
     }
 
-    public void setIntake(double speed) {
+    public void run(double speed) {
         Intakemotor.set(speed);
     }
 
-    public void run(int i) {
-    }
 }
+
